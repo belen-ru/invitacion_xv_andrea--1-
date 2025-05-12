@@ -33,14 +33,36 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+.bienvenida h1{
+  margin-bottom: 0px;
+}
+
+.bienvenida p{
+  font-size: 1.8rem;
+  color: #fcf9ff;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 20px;
+  
+}
+
+.bienvenida img{
+  width: 90%;
+  height: auto;
+  animation: fadeIn 1.6s;
+  text-align: center;
+}
 .bienvenida button {
-  background-color: #fff;
-  color: #7a4ea3;
+  background-color:#ca4cca;
+  color:white;
   padding: 15px 30px;
-  font-size: 18px;
+  font-size: 22px;
   border-radius: 30px;
+  font-weight: lighter;
   border: none;
   cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   transition: 0.3s;
 }
 .bienvenida button:hover {
