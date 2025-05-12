@@ -94,11 +94,10 @@ h1, h2 {
 
 .overlay-text {
   position: absolute;
-  
   justify-self: center;
   text-align: left;
   color: white;
-  font-size: 90%;
+  font-size: 85%;
 }
 .overlay-text p{
   font-style: italic;
@@ -365,7 +364,7 @@ padding: 0px;
   background:plum;
   margin: 20px;
   border-radius:  20px;
-  padding: 15px 30px;
+  padding: 15px;
 }
 
 .unidad {
@@ -373,7 +372,7 @@ padding: 0px;
 }
 
 .numero {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   color: rgb(255, 247, 249);
   font-family:Verdana, Geneva, Tahoma, sans-serif
