@@ -111,8 +111,8 @@ h1{
 
 .padres{
   
-  background: #f1bcf1ab;
-  margin: 0px 30px;
+  background: #f0d0f0e3;
+  margin: 30px;
   border-radius: 30px;
 }
 
@@ -336,7 +336,7 @@ padding: 0px;
   background:plum;
   margin: 20px;
   border-radius:  20px;
-  padding: 15px 20px;
+  padding: 15px 25px;
 }
 
 .unidad {
@@ -344,7 +344,7 @@ padding: 0px;
 }
 
 .numero {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: bold;
   color: rgb(255, 247, 249);
   font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -362,6 +362,118 @@ padding: 0px;
 
 .fecha{
   background-color: plum;
+}
+
+.eventos{
+  background: #ffff;
+  margin: 20px 30px;
+  border-radius: 30px;
+
+}
+
+.eventos p{
+  font-size:small;
+}
+
+.eventos .evento1 .hora{
+  margin-bottom: 20px;
+}
+
+.eventos .evento2 .hora{
+  margin-bottom: 20px;
+}
+
+.eventos a{
+  background-color: plum;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-size: small;
+  
+}
+
+.eventos h2{
+  color: plum;
+  margin-bottom: 0px;
+}
+
+.evento1,.evento2{
+  background-color:#f1bcf1ab ;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.evento1 h2,.evento2 h2{
+color: white;
+}
+.evento1{
+  margin-bottom: 10px;
+}
+
+
+
+.eventos h3{
+  color: black;
+  font-size: medium;
+  
+}
+
+
+
+.eventos  .hora{
+  font-weight: bold;
+  color: #ca4cca;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  
+}
+
+.vestimenta{
+  background-image: url('/img/brillo.gif');
+  background-color:#f1bcf1ab;
+  
+}
+
+.vestimenta img{
+  width: 80%;
+  height: auto;
+  margin-top: 15px;
+}
+
+.vestimenta h2{
+  margin: 0px;
+}
+
+.padres p{
+  margin-bottom: 25px;
+}
+
+.padres h2{
+  margin: 0px;
+  color: plum;
+}
+
+.padres{
+  background-color: white;
+}
+
+.padres a{
+  border: 3px solid plum;
+  border-radius: 120px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: small;
+  color: plum;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.padres .decoracion{
+  margin: 0px;
+  margin-bottom: 10px;
 }
 
 .carrusel {
@@ -428,8 +540,8 @@ padding: 0px;
   position: fixed;
   top: 20px;
   right: 20px;
-  background-color: #fff;
-  color: #7a4ea3;
+  background-color:plum;
+  color: white;
   border: none;
   padding: 10px;
   border-radius: 50%;
