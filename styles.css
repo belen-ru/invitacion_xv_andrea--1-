@@ -537,17 +537,21 @@ color: white;
   border-radius: 10px;
 }
 .musica-btn {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background-color:plum;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 10;
-}
+  
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: #d8b4fe;
+    border: none;
+    padding: 10px;
+    border-radius:35px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+ 
+
 
 .asistencia{
   background-color: #fff;
