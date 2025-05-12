@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XV Andrea Orta</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+
+
+  <div class="overlay" id="overlay">
+    <div class="bienvenida">
+      <h1>¡Mis XV años!</h1>
+     
+      <button onclick="abrirInvitacion()">Abrir invitación</button>
+    </div>
+  </div>
+
+  <button class="musica-btn" onclick="toggleMusica()">🎵</button>
+  <audio id="audio" loop>
+    <source src="tu-cancion.mp3" type="audio/mpeg">
+  </audio>
+
+  <main id="contenido" style="display: none;">
+
+
+    <section class="foto-principal" data-aos="fade-up">
+
+      <div class="overlay-text">
+        <h1>Andrea Orta Jaramillo</h1>
+        <p>31.05.2025</p>
+      </div>
+
+      <img src="/img/_MG_7816.webp" alt="Andrea Orta">
+      <h1>Mis XV años</h1>
+    </section>
+
+    <section class="foto" data-aos="fade-up">
+
+      <img src="/img/arco.webp" alt="Andrea Orta">
+
+      <div class="overlay-secc">
+        <img  src="/img/mari2.webp">
+
+        <div class="parrafo">
+          <p>Con mucha alegría y gratitud, quiero compartir con ustedes un momento muy especial en mi vida. Ha llegado el día de mis XV años, un sueño hecho realidad, y será un honor contar con su presencia para celebrar juntos.</p>
+          <p>Agradezco profundamente a quienes con amor y dedicación han hecho posible este día tan especial.</p>
+        </div>
+
+        
+        <img id="banner" src="/img/banner.webp">
+        <h1>Mis queridos padres</h1>
+        <p>Hilda Cecilia Jaramillo Talamantes</p>
+        <p>&</p>
+        <p>José de Jesús Orta Ruiz</p>
+
+       <img class="decoracion" src="/img/deco.webp"> 
+      </div>
+  
+    </section>
+
+    <section class="foto-sec" data-aos="fade-up">
+      <div class="img-container">
+        <img src="/img/_MG_7753.webp" alt="Andrea Orta">
+        <div class="overlay-parrafo">
+          <p>Los XV años son el comienzo de un nuevo camino. Un momento para soñar en grande, para agradecer lo vivido y prepararse para todo lo hermoso que viene.</p>
+        </div>
+      </div>
+    </section>
+    
+    
+
+  
+
+    <section class="seccion conta">
+      <h2>¡Estoy emocionada!</h2>
+      <p>Faltan solo:</p>
+      <div id="cuenta-regresiva" class="contador">
+        <div class="unidad">
+          <div class="numero" id="dias">0</div>
+          <div class="etiqueta">DÍAS</div>
+        </div>
+        <div class="unidad">
+          <div class="numero" id="horas">0</div>
+          <div class="etiqueta">HORAS</div>
+        </div>
+        <div class="unidad">
+          <div class="numero" id="minutos">0</div>
+          <div class="etiqueta">MINUTOS</div>
+        </div>
+        <div class="unidad">
+          <div class="numero" id="segundos">0</div>
+          <div class="etiqueta">SEGUNDOS</div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="foto-sec" data-aos="fade-up">
+      <img class="foto-center" src="/img/_MG_8015.webp" alt="Andrea Orta">
+    </section>
+
+    <section class="foto-fecha" data-aos="fade-up">
+
+      <img src="/img/arriba.webp" alt="Andrea Orta">
+
+      <div class="overlay-secc-fecha">
+        <h2 >¡Separa la fecha!</h2>
+        <div class="div-fecha">
+          <h2 data-aos="fade-right">31</h2>
+              <div data-aos="fade-left">
+                <p>MAYO</p>
+                <p>2025</p>
+              </div>
+          </div>
+       
+       <img class="decoracion" src="/img/38.webp"> 
+      </div>
+  
+    </section>
+
+    
+
+    <section class="eventos" data-aos="fade-right" >
+
+      <div>
+        <h2>Te invito a celebrar</h2>
+        <img src="tiara">
+        <p>INICIAMOS CON LA</p>
+        <h2>Misa</h2>
+        <h3>Parroquia San Francisco de Asís</h3>
+        <p>- 7:00 PM -</p>
+        <a href="https://maps.app.goo.gl/VQ4YhNxef3j8zRve9">UBICACÍON</a>
+      </section>
+      </div>
+
+     
+      <p>CONTINUAMOS CON LA</p>
+      <h2>Recepción</h2>
+      <h3>Salón Quinta Flores</h3>
+      <p>- 8:30 PM -</p>
+      <a href="https://maps.app.goo.gl/kVLSVDwyvypBN8Ng7">UBICACÍON</a>
+    </section>
+      
+
+    <section class="vestimenta" data-aos="fade-left">
+      <h2>Código de vestimenta</h2>
+      <p>Formal elegante</p>
+    </section>
+
+    <section class="foto-sec" data-aos="fade-up">
+      <img src="/img/_MG_8015.webp" alt="Andrea Orta">
+    </section>
+
+   
+
+  
+
+    <section class="padres">
+      <h2>Lluvia de sobres</h2>
+      <p>No hay regalo más precioso que el de tu presencia en mi fiesta, pero si tu deseo es darme algo más aquí una sugerencia.</p>
+      <img src="/img/sobre (1).webp">
+    </section>
+
+    <section class="foto-sec" data-aos="fade-up">
+      <img src="/img/_MG_8015.webp" alt="Andrea Orta">
+    </section>
+
+    <section class="padres">
+      <h2>Buzón de deseos</h2>
+      <p> ¡Tu mensaje será un lindo recuerdo que guardaré con mucho cariño!</p>
+      <form>
+          <textarea placeholder="Deja aquí tus palabras, consejos o buenos deseos para Andrea..."></textarea>
+          <button type="submit">Enviar</button>
+      </form>
+  </section>
+
+    <section class="carrusel" data-aos="fade-up">
+      <h2>Recuerdos</h2>
+      <div class="carousel-container">
+        <button class="carousel-btn prev" onclick="moverCarrusel(-1)">&#10094;</button>
+        <div class="carousel-track">
+          <img src="/img/_MG_7774 (1).webp">
+          <img src="/img/_MG_7792.webp">
+          <img src="/img/_MG_7803.webp">
+          <img src="/img/_MG_7946.webp">
+          <img src="/img/_MG_7970.webp">
+          <img src="/img/_MG_8061.webp">
+        </div>
+        <button class="carousel-btn next" onclick="moverCarrusel(1)">&#10095;</button>
+      </div>
+    </section>
+    <img class="tiara" src="/img/tiara.webp">
+
+    <section class="asistencia" data-aos="fade-up">
+      
+      <h2>¡Tes espero!</h2>
+      <img class="tiara" src="/img/5 (1).webp">
+      <h3>Confirma tu asistencia</h3>
+      <p>Por favor, confirma tu asistencia a este día tan especial para mi.</p>
+      <p>¡Tu respuesta es muy importante!</p>
+      <a 
+        href="https://wa.me/8617982396?text=Hola,%20confirmo%20mi%20asistencia%20a%20los%20XV%20años%20de%20Andrea!" 
+        target="_blank" 
+        class="whatsapp-confirmar">
+        Confirmar
+      </a>
+    </section>
+
+  
+    
+    <footer>
+      <p>Con cariño, Andrea.</p>
+  </footer>
+
+
+    
+
+    <!--<section class="galeria" data-aos="zoom-in">
+      <h2>Galería</h2>
+      <img src="/img/_MG_7774 (1).webp">
+      <img src="/img/_MG_7792.webp">
+      <img src="/img/_MG_7803.webp">
+      <img src="/img/_MG_7946.webp">
+      <img src="/img/_MG_7970.webp">
+      <img src="/img/_MG_8061.webp">
+    </section> -->
+
+   
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    function abrirInvitacion() {
+      document.getElementById('overlay').style.display = 'none';
+      document.getElementById('contenido').style.display = 'block';
+      document.getElementById('audio').play();
+    }
+
+    function toggleMusica() {
+      const audio = document.getElementById('audio');
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+
+    let index = 0;
+
+function moverCarrusel(direccion) {
+  const track = document.querySelector('.carousel-track');
+  const total = track.children.length;
+  const width = track.children[0].offsetWidth + 10; // imagen + margen
+  index += direccion;
+
+  if (index < 0) index = total - 1;
+  if (index >= total) index = 0;
+
+  track.style.transform = `translateX(-${index * width}px)`;
+}
+
+
+  </script>
+  <script src="/script.js"></script>
+</body>
+</html>

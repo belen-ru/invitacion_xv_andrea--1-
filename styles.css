@@ -1,0 +1,484 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-image: url('/img/5.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.overlay {
+  background-color: rgba(180, 130, 200, 0.6);
+  backdrop-filter: blur(4px);
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  
+}
+
+.overlay h1{
+  color: #fff;
+  margin-bottom: 20px;
+  animation: fadeIn 0s;
+}
+.bienvenida {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bienvenida button {
+  background-color: #fff;
+  color: #7a4ea3;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.bienvenida button:hover {
+  background-color: #d8b4f8;
+}
+
+main {
+  animation: fadeIn 1s ease-in forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+section {
+  padding: 30px;
+  text-align: center;
+  display: block;
+  justify-items: center;
+  
+}
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.overlay-text {
+  position: absolute;
+  
+  justify-self: center;
+  text-align: left;
+  color: white;
+  font-size: 90%;
+}
+.overlay-text p{
+  font-style: italic;
+  animation: fadeIn 2s;
+  color: #fff;
+}
+
+.foto-principal{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1{
+  
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color:plum;
+  font-size: 2.8em;
+  animation: fadeIn 2s;
+}
+
+
+
+.foto-principal img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
+  transition: transform 0.5s ease;
+  
+}
+
+.padres{
+  
+  background: #f1bcf1ab;
+  margin: 0px 30px;
+  border-radius: 30px;
+}
+
+.padres img{
+  margin-top: 20px;
+  max-width: 30%;
+  height: auto;
+}
+
+.foto{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9));
+height:800px;
+}
+
+.foto-fecha{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+background: linear-gradient(to top, rgb(255, 255, 255), rgba(253, 252, 253, 0.6));
+height:400px;
+}
+
+.foto img{
+  max-width: 100%;
+  
+  transition: transform 0.5s ease;
+}
+
+
+.foto-fecha img{
+  max-width: 100%;
+  
+  transition: transform 0.5s ease;
+}
+
+.foto h2{
+  margin-top: 120px;
+  color: black;
+}
+
+.overlay-secc {
+  position: absolute;
+  justify-self: center;
+  text-align: center;
+  color: white;
+  font-size: 90%;
+}
+
+.overlay-secc-fecha {
+  position: absolute;
+  justify-self: center;
+  text-align: center;
+  color: white;
+  font-size: 90%;
+  background-color: transparent;
+}
+
+.overlay-secc-fecha h2{
+  
+  animation: fadeIn 2s;
+  margin-top: 140px;
+  color: #7a7a7a;
+  
+}
+.overlay-secc-fecha .decoracion{
+  
+  width: 50%;
+  height: auto;
+  
+}
+
+.overlay-secc-fecha .div-fecha{
+ 
+    display: flex;
+    align-items: center;   /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    gap: 20px; /* Espacio entre el número y los textos */
+   
+  
+  
+}
+
+.div-fecha h2{
+  margin: 0px;
+  color: plum;
+  font-size: 100px;
+}
+
+.div-fecha div{
+  
+  font-size:34px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* O center si quieres centrado */
+}
+
+.div-fecha > div > p{
+  color: plum;
+  font-weight: bold;
+  
+  
+}
+
+
+
+.overlay-secc p{
+  font-style: italic;
+  animation: fadeIn 2s;
+ 
+}
+
+.overlay-secc img{
+  width: 35%;
+  height: auto;
+  animation: fadeIn 2s;
+  margin-top: 90px;
+  
+}
+
+.overlay-secc h1{
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+#banner{
+  width: 80%;
+  height: auto;
+  margin: 10px 30px;
+  
+}
+.parrafo{
+  padding: 30px 30px 10px 30px;
+}
+
+.parrafo p{
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.foto-sec .img-container {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.foto-sec img {
+  width: 100%;
+  display: block;
+  
+}
+
+.overlay-parrafo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgb(238, 176, 250), rgba(213, 119, 216, 0)); /* Fondo oscuro semitransparente */
+  padding: 15px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+}
+
+.overlay-parrafo p {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  transition: 2s ease;
+}
+
+
+
+.overlay-secc .decoracion{
+  width: 35%;
+  height: auto;
+  animation: fadeIn 2s;
+  margin-top: 20px;
+}
+
+.foto-sec{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+
+}
+
+.foto-sec img{
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
+  transition: transform 0.5s ease;
+}
+
+.seccion contador h1{
+  margin: 0px;
+}
+.conta{
+  background: #f1bcf1ab;
+  margin: 20px;
+  border-radius:  30px;
+  
+}
+
+
+.contador {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  background:plum;
+  margin: 20px;
+  border-radius:  20px;
+  padding: 15px 20px;
+}
+
+.unidad {
+  text-align: center;
+}
+
+.numero {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(255, 247, 249);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.etiqueta {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 5px;
+  
+}
+
+
+
+
+.fecha{
+  background-color: plum;
+}
+
+.carrusel {
+  margin-top: 40px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-track img {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 15px;
+  margin: 0 5px;
+  object-fit: cover;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color:transparent;
+  border: none;
+  font-size: 24px;
+  color: plum;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+
+
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 10px;
+}
+.musica-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  color: #7a4ea3;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.asistencia{
+  background-color: #fff;
+  color: plum;
+}
+
+.asistencia img{
+  width: 100%;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.tiara{
+  width: 100%;
+  margin: 0px;
+  
+  height: auto;
+}
+
+.asistencia h3, p{
+  color: black;
+}
+
+.whatsapp-confirmar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  background-color:plum;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.whatsapp-confirmar:hover {
+  background-color: #1ebe5b;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #ede7f6;
+  text-align: center;
+  padding: 1rem;
+  color: #7a4ea3;
+}
