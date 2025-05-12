@@ -257,19 +257,30 @@
     AOS.init();
 
     function abrirInvitacion() {
-      document.getElementById('overlay').style.display = 'none';
-      document.getElementById('contenido').style.display = 'block';
-      document.getElementById('audio').play();
-    }
+  document.getElementById('overlay').style.display = 'none';
+  document.getElementById('contenido').style.display = 'block';
+  document.getElementById('audio').play();
+}
 
-    function toggleMusica() {
-      const audio = document.getElementById('audio');
-      if (audio.paused) {
-        audio.play();
-      } else {
-        audio.pause();
-      }
-    }
+function toggleMusica() {
+  const audio = document.getElementById('audio');
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
+
+// ⏸️⏯️ Pausar al salir de la pestaña y reanudar al volver
+document.addEventListener("visibilitychange", function () {
+  const audio = document.getElementById('audio');
+  if (document.hidden) {
+    audio.pause();
+  } else {
+    audio.play(); // reanuda cuando vuelve
+  }
+});
+
 
     let index = 0;
 
