@@ -364,21 +364,22 @@ padding: 0px;
   justify-content: center;
   gap: 20px;
   font-family: sans-serif;
-  margin-top: 20px;
-  background:plum;
-  margin: 20px;
+  
+ 
+ 
   border-radius:  20px;
   padding: 15px;
 }
 
 .unidad {
   text-align: center;
+  
 }
 
 .numero {
   font-size: 2.2rem;
   font-weight: bold;
-  color: rgb(255, 247, 249);
+  color: rgb(211, 152, 211);
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
