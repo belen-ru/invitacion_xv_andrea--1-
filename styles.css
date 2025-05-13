@@ -468,7 +468,13 @@ color: white;
   background-color:#f1bcf1ab;
   margin: 20px 0px;
 }
-
+.vestimenta .tipo-vestimenta{
+  font-weight:600;
+  font-style: italic;
+  color: #5e4f6d;
+  font-size: 1.2rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .vestimenta img{
   width: 80%;
   height: auto;
@@ -489,6 +495,7 @@ color: white;
 
 .vestimenta h2{
   margin: 0px;
+
 }
 
 .padres p{
