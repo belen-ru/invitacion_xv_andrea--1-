@@ -473,6 +473,18 @@ color: white;
   width: 80%;
   height: auto;
   margin-top: 15px;
+  margin-bottom: 10px;
+  
+}
+
+.vestimenta .reservados{
+  font-size: small;
+
+}
+
+.vestimenta .reservados span{
+  font-weight: bold;
+  color: #7a4ea3;
 }
 
 .vestimenta h2{
